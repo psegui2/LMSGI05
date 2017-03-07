@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>IIU - Imperial Intergalactical University</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon" type="image/png" href="favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Tarea 03 formulario y validacion de respuestas">
+		<meta name="keywords" content="universidad, Imperial, formulario">
+		<meta name="author" content="Ángel Martínez">
+		<meta charset="utf-8">
+		<script src="js/code.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="page">
+				<header>
+					<div id="logo">
+						<h1><a href="index.html">Imperial Intergalactical University</a></h1>
+						<h2>La universidad de los conocimientos imperiales</h2>
+					</div>					
+				</header>
+				<div id="titulo">
+					<h1>Examen Tema Internet</h1>
+				</div>
+				<div id="formulario">
+					<form id="myForm">
+						<!-- Tipo texto -->
+						<ol>
+							<li><h3 id="quest01"></h3></li>
+							<input type="texto" name="answ_text_01" id="answ_text_01" class="texto">
+
+							<li><h3 id="quest02"></h3></li>
+							<input type="texto" name="answ_text_02" id="answ_text_02" class="texto">
+							
+							<li><h3 id="quest03"></h3></li>
+							<div id="radioDiv1" class="radioDiv"></div>
+
+							<li><h3 id="quest04"></h3></li>
+							<div id="radioDiv2" class="radioDiv"></div>
+							
+							<li><h3 id="quest05"></h3></li>
+							<select multiple id="multiple1" class="multiple"></select>
+
+							<li><h3 id="quest06"></h3></li>
+							<select multiple id="multiple2" class="multiple"></select>
+
+							<li><h3 id="quest07"></h3></li>
+							<select id="select1" class="select">
+								<option selected value="-1">Selecciona una...</option>
+							</select>
+
+							<li><h3 id="quest08"></h3></li>
+							<select id="select2" class="select">
+								<option selected value="-1">Selecciona una...</option>
+							</select>
+
+							<li><h3 id="quest09"></h3></li>
+							<div id="checkboxDiv1" class="checkboxDiv"></div>
+
+							<li><h3 id="quest10"></h3></li>
+							<div id="checkboxDiv2" class="checkboxDiv"></div>
+						</ol> 
+						<br>
+						<div id="botonera">
+							<input type='submit' id="submitButton" value='Corregir' class="button">
+							<br>
+							<input type="reset" id="resetButton" value="Reset" class="button">
+						</div>
+
+					</form>
+					<div id="resultadosDiv">
+						<!--<button id='reload'> Reload </button>-->
+					</div>
+				</div>
+				<br>
+				<footer><p>Creado por Ángel Martínez - LMSGI</p></footer>
+			</div>
+		</div>
+	</body>
+</html>

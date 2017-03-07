@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE questions SYSTEM "questions.dtd">-->
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="questions.xsd">
+	<question id="AMRQ_001"> 
+		<type>text</type>
+		<title>¿Internet es público?</title>
+		<answer>Sí</answer>
+	</question>	
+
+	<question id="AMRQ_002"> 
+		<type>text</type>
+		<title>¿Qué protocolo de comunicación usa internet?</title>
+		<answer>TCP/IP</answer>
+	</question>	
+	
+	<question id="AMRQ_003"> 
+		<type>radio</type>
+		<title>Significado de WWW</title>
+		<option>Working World Web</option>
+		<option>World Wide Web</option>
+		<option>Web Wide World</option>
+		<option>Wide World Web</option>
+		<answer>2</answer>
+	</question>
+	
+	<question id="AMRQ_004"> 
+		<type>radio</type>
+		<title>¿Cómo era conocido inicialmente Internet?</title>
+		<option>ARPANET</option>
+		<option>NET</option>
+		<option>INTRANET</option>
+		<option>DOCNET</option>
+		<answer>1</answer>
+	</question>
+	
+	<question id="AMRQ_005"> 
+		<type>multiple</type>
+		<title>Selecciona las afirmaciones verdaderas sobre WWW</title>
+		<option>El WWW fue un proyecto iniciado desde el CERN</option>
+		<option>Su principal objetivo era relacionar diferentes documentos mediante la técnica del hipertexto</option>
+		<option>La exploración en el Web se realiza por medio de un software especial denominado Browser o Explorador.</option>
+		<option>WWW es de pago.</option>
+		<answer>1</answer>
+		<answer>2</answer>
+		<answer>3</answer>
+	</question>
+	
+	<question id="AMRQ_006"> 
+		<type>multiple</type>
+		<title>Selecciona las afirmaciones incorrectas sobre las páginas web.</title>
+		<option>Es un documento electrónico que contiene información específica de un tema en particular.</option>
+		<option>Se almacenan en algún sistema que se encuentre conectado a la red mundial de información denominada Internet.</option>
+		<option>Una página Web no es la unidad básica del World Wide Web.</option>
+		<option>Una página web no puede contener contenido multimedia.</option>
+		<answer>3</answer>
+		<answer>4</answer>
+	</question>	
+
+	<question id="AMRQ_007"> 
+		<type>select</type>
+		<title>Selección un protocolo comunmente utilizado para enviar correo electrónico</title>
+		<option>TSL</option>
+		<option>POP3</option>
+		<option>SMTP</option>
+		<option>IMAP</option>
+		<answer>3</answer>
+	</question>
+	
+	<question id="AMRQ_008"> 
+		<type>select</type>
+		<title>Selecciona el formato correcto de una direccion de correo electrónico</title>
+		<option>@dominio.nombre.organizacion</option>
+		<option>nombre@organizacion.dominio</option>
+		<option>nombre@dominio</option>
+		<option>nombre.organizacion@dominio</option>
+		<answer>2</answer>
+	</question>
+	
+	<question id="AMRQ_009"> 
+		<type>checkbox</type>
+		<title>¿Qué significa FTP?</title>
+		<option>File Transfer Protocol.</option>
+		<option>File Transfer Photos.</option>
+		<option>Files Transfering Protocols.</option>
+		<option>Files Transfered Previously.</option>
+		<answer>1</answer>
+	</question>
+
+	<question id="AMRQ_010"> 
+		<type>checkbox</type>
+		<title>¿Cúal no es una extensión de fichero comprimido correcta?</title>
+		<option>.RAR</option>
+		<option>.BMP</option>
+		<option>.ZIP</option>
+		<option>.MKV</option>
+		<answer>2</answer>
+		<answer>4</answer>
+	</question>	
+
+</questions>
